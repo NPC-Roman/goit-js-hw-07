@@ -1,6 +1,6 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
-console.log(galleryItems);
+/*console.log(galleryItems);
 
 const container = document.querySelector(".gallery");
 
@@ -16,4 +16,4 @@ function createMarkup(arr) {
     .join("");
 }
 
-new SimpleLightbox(".gallery a", { captionsData: "alt", captionsDelay: 250 });
+new SimpleLightbox(".gallery a", { captionsData: "alt", captionsDelay: 250 });*/
