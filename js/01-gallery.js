@@ -43,12 +43,12 @@ function modalOpen(evt) {
   );
   instance.show();
 
-  galleryImage.addEventListener("keydown", onEscapeClick);
+  container.addEventListener("keydown", onEscapeClick);
 
   function onEscapeClick(evt) {
     if (modalOpen && evt.key === "Escape") {
       instance.close();
-      galleryImage.removeEventListener("keydown", onEscapeClick);
+      container.removeEventListener("keydown", onEscapeClick);
     }
   }
 }
